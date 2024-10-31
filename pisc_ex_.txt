@@ -1,0 +1,97 @@
+norminette -R CheckForbiddenSourceHeader
+cc -Wall -Wextra -Werror <arquivo>
+
+gdb -g arquivo.c
+
+
+strlen grademe rndu
+
+
+C_06		ok
+ex00	ok
+ex01	ok
+ex02	ok
+ex03	ok
+
+
+C_05		ok
+ex00	ok
+ex01	ok
+ex02	ok
+ex03	ok
+ex04	ok
+ex05	ok
+ex06	ok
+ex07	ok
+
+
+C_04		ok
+ex00	ok
+ex01	ok
+ex02	ok
+ex03	ok
+
+
+C_03		ok
+ex00	ok
+ex01	ok
+ex02	ok
+ex03	ok
+ex04	ok
+
+
+C02		ok
+ex00	ok	ko coloquei  return (dest)
+ex01	ok	ko retirei  dest[i] != '\0'
+ex02	ok	erro nome do arquivo de ft* p/ st*
+ex03	ok
+ex04	ok
+ex05	ok
+ex06	ok
+ex07	ok	erro *ft_str_is_strupcase.. não tem str_is_
+ex08	ok
+ex09	ok	ko
+
+
+C_01		ok
+ex00	ok
+ex01	ok
+ex02	ok
+ex03	ok
+ex04	ok
+ex05	ok
+ex06	ok
+
+
+C_00		ok
+ex00	ok
+ex01	ok
+ex02	ok
+ex03	ok
+ex04	ok
+ex05	ok
+
+
+Shell_01	ok
+ex01	ok	#!/bin/sh
+		id -Gn | tr ' ' ',' | tr -d "\n"
+ex02	ok	#!/bin/sh
+		find . -name "*.sh" -exec basename {} .sh \;
+ex03	ok	#!/bin/sh
+		find . | wc -l
+ex04	ok	#!/bin/sh
+		ifconfig | grep ether | awk '{print $2}'
+ex05	ok	\"\\\?\$\*\'MaRViN\'\*\$\?\\\"		42 dentro do arquivo
+							(truncate -s 2 arquivo)
+
+
+Shell_00	ok	tar -xvf <arquivo>
+ex00	ok
+ex01	ok
+ex02	ok
+ex03	ok
+ex04	ok
+ex05	ok
+
+
+
